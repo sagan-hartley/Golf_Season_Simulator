@@ -1,0 +1,50 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments / env files
+venv/
+.env/
+.env*/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test & coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.log
+
+# IDE / Editor folders
+.vscode/
+.idea/
+.DS_Store
+
+# ---------------------------------------
+# Data folder rules
+# ---------------------------------------
+# Ignore all data in the “real” folder
+data/real/*
+
+# Keep example data files (for tests)
+!data/examples/
+!data/examples/*
+
+# Ignore simulation output files
+# (if you generate a separate folder)
+output/
+*.csv
+
+# ---------------------------------------
+# Misc
+# ---------------------------------------
+*.bak
+*.swp
